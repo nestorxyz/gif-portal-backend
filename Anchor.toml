@@ -9,7 +9,7 @@ cluster = "localnet"
 wallet = "/home/nestoredduardo/.config/solana/id.json"
 
 [scripts]
-test = "mocha -t 1000000 tests/"
+test = "node tests/myepicproject.js" 
 
 [test]
 startup_wait = 100000
